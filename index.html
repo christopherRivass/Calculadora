@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora by Christopher Rivas</title>
+		<link rel="styleSheet" href="style.css" type="text/css" media="screen">
+	</head>
+
+	<body>
+		<div id="app">
+			<div class="conteiner">
+				<form class="form">
+					<div class="respuestaConteiner">
+						<span class="resp">{{calcular}}</span>
+					</div>
+					<div class="buttons">
+						<div>
+							<input type="button" value="/" class="btn-sig" @click="sig='/'"></input>
+							<input type="button" value="-" class="btn-sig" @click="sig='-'"></input>
+							<input type="button" value="+" class="btn-sig" @click="sig='+'"></input>
+							<input type="button" value="*" class="btn-sig" @click="sig='*'"></input>
+						</div>
+						<input type="button" value="7"  class="num" @click='dat=7,add()'></input>
+						<input type="button" value="8"  class="num" @click='dat=8,add()'></input>
+						<input type="button" value="9"  class="num" @click='dat=9,add()'></input>
+						<input type="button" value="4"  class="num" @click='dat=4,add()'></input>
+						<input type="button" value="5"  class="num" @click='dat=5,add()'></input>
+						<input type="button" value="6"  class="num" @click='dat=6,add()'></input>
+						<input type="button" value="1"  class="num" @click='dat=1,add()'></input>
+						<input type="button" value="2"  class="num" @click='dat=2,add()'></input>
+						<input type="button" value="3"  class="num" @click='dat=3,add()'></input>
+						<input type="button" value="0" class="num btn-0" @click='dat=0,add()'></input>
+						<input type="button" value="D" class="num" @click='clear()'></input>
+						<input type="button" value="=" class="num igual" @click="total()"></input>
+					</div>
+				</form>
+			</div>
+		</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="index.js"></script>
+	</body>
+	</html>
+
