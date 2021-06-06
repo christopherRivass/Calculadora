@@ -45,7 +45,7 @@ var app = new Vue({
         //recorremos Array
         for (numeros of this.Array){
             return parseInt(this.n2+=numeros);
-          }
+        }
         this.dat=0;
         this.n2+=this.n2
         //else this.sig =='' then Array push it in n1
@@ -58,9 +58,6 @@ var app = new Vue({
         this.dat=0
         return parseInt(this.n1)
       }
-      
-      
     }
-      
   }
 })
