@@ -2,7 +2,6 @@ var app = new Vue({
   el: '#app',
   data: {
     dat:0,
-    aum:0,
     sig:'',
     Array:[],
     n1:'',
@@ -18,17 +17,14 @@ var app = new Vue({
         case '+':
           this.n1=(parseInt(this.n1) + parseInt(this.n2));
           return this.n2='',this.n1, this.dat='',this.sig='';
-          break;
 
         case '-':
           this.n1=(parseInt(this.n1) - parseInt(this.n2));
           return this.n2='',this.n1,this.dat='',this.sig='';
-          break;
 
         case '*':
           this.n1=(parseInt(this.n1) * parseInt(this.n2));
           return this.n2='',this.n1, this.dat='',this.sig='';
-          break;
 
         case '/':
           this.n1=(parseInt(this.n1) / parseInt(this.n2));
