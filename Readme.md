@@ -2,4 +2,4 @@
 
 <b>This's the style of project, only it can do operation basic, as '+ X - /'.</b> 
 
-<div align=center><img src='iMG/c.png'></img></div>
+<div align=center><img src='IMG/cal.png'></img></div>
